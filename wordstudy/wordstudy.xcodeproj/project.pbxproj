@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B51C0F561493113800B9AAF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51C0F551493113800B9AAF1 /* UIKit.framework */; };
+		B51C0F581493113800B9AAF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51C0F571493113800B9AAF1 /* Foundation.framework */; };
+		B51C0F5A1493113800B9AAF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51C0F591493113800B9AAF1 /* CoreGraphics.framework */; };
+		B51C0F5C1493113800B9AAF1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51C0F5B1493113800B9AAF1 /* CoreData.framework */; };
+		B51C0F621493113800B9AAF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B51C0F601493113800B9AAF1 /* InfoPlist.strings */; };
+		B51C0F641493113800B9AAF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0F631493113800B9AAF1 /* main.m */; };
+		B51C0F681493113800B9AAF1 /* maartAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0F671493113800B9AAF1 /* maartAppDelegate.m */; };
+		B51C0F6B1493113800B9AAF1 /* wordstudy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B51C0F691493113800B9AAF1 /* wordstudy.xcdatamodeld */; };
+		B51C0F731493113900B9AAF1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51C0F721493113900B9AAF1 /* SenTestingKit.framework */; };
+		B51C0F741493113900B9AAF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51C0F551493113800B9AAF1 /* UIKit.framework */; };
+		B51C0F751493113900B9AAF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51C0F571493113800B9AAF1 /* Foundation.framework */; };
+		B51C0F761493113900B9AAF1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51C0F5B1493113800B9AAF1 /* CoreData.framework */; };
+		B51C0F7E1493113900B9AAF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B51C0F7C1493113900B9AAF1 /* InfoPlist.strings */; };
+		B51C0F811493113900B9AAF1 /* wordstudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0F801493113900B9AAF1 /* wordstudyTests.m */; };
+		B51C0F981493152800B9AAF1 /* MainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0F971493152800B9AAF1 /* MainNavController.m */; };
+		B51C0FCD14931F0200B9AAF1 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0FB514931F0200B9AAF1 /* NSObject+SBJson.m */; };
+		B51C0FCE14931F0200B9AAF1 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0FB814931F0200B9AAF1 /* SBJsonParser.m */; };
+		B51C0FCF14931F0200B9AAF1 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0FBA14931F0200B9AAF1 /* SBJsonStreamParser.m */; };
+		B51C0FD014931F0200B9AAF1 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0FBC14931F0200B9AAF1 /* SBJsonStreamParserAccumulator.m */; };
+		B51C0FD114931F0200B9AAF1 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0FBE14931F0200B9AAF1 /* SBJsonStreamParserAdapter.m */; };
+		B51C0FD214931F0200B9AAF1 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0FC014931F0200B9AAF1 /* SBJsonStreamParserState.m */; };
+		B51C0FD314931F0200B9AAF1 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0FC214931F0200B9AAF1 /* SBJsonStreamWriter.m */; };
+		B51C0FD414931F0200B9AAF1 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0FC414931F0200B9AAF1 /* SBJsonStreamWriterAccumulator.m */; };
+		B51C0FD514931F0200B9AAF1 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0FC614931F0200B9AAF1 /* SBJsonStreamWriterState.m */; };
+		B51C0FD614931F0200B9AAF1 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0FC814931F0200B9AAF1 /* SBJsonTokeniser.m */; };
+		B51C0FD714931F0200B9AAF1 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0FCA14931F0200B9AAF1 /* SBJsonUTF8Stream.m */; };
+		B51C0FD814931F0200B9AAF1 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B51C0FCC14931F0200B9AAF1 /* SBJsonWriter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B51C0F771493113900B9AAF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B51C0F481493113800B9AAF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51C0F501493113800B9AAF1;
+			remoteInfo = wordstudy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B51C0F511493113800B9AAF1 /* wordstudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordstudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51C0F551493113800B9AAF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B51C0F571493113800B9AAF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B51C0F591493113800B9AAF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B51C0F5B1493113800B9AAF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B51C0F5F1493113800B9AAF1 /* wordstudy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wordstudy-Info.plist"; sourceTree = "<group>"; };
+		B51C0F611493113800B9AAF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B51C0F631493113800B9AAF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B51C0F651493113800B9AAF1 /* wordstudy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wordstudy-Prefix.pch"; sourceTree = "<group>"; };
+		B51C0F661493113800B9AAF1 /* maartAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maartAppDelegate.h; sourceTree = "<group>"; };
+		B51C0F671493113800B9AAF1 /* maartAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maartAppDelegate.m; sourceTree = "<group>"; };
+		B51C0F6A1493113800B9AAF1 /* wordstudy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wordstudy.xcdatamodel; sourceTree = "<group>"; };
+		B51C0F711493113900B9AAF1 /* wordstudyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordstudyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51C0F721493113900B9AAF1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B51C0F7B1493113900B9AAF1 /* wordstudyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wordstudyTests-Info.plist"; sourceTree = "<group>"; };
+		B51C0F7D1493113900B9AAF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B51C0F7F1493113900B9AAF1 /* wordstudyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wordstudyTests.h; sourceTree = "<group>"; };
+		B51C0F801493113900B9AAF1 /* wordstudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wordstudyTests.m; sourceTree = "<group>"; };
+		B51C0F961493152800B9AAF1 /* MainNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavController.h; sourceTree = "<group>"; };
+		B51C0F971493152800B9AAF1 /* MainNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavController.m; sourceTree = "<group>"; };
+		B51C0FB414931F0200B9AAF1 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		B51C0FB514931F0200B9AAF1 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		B51C0FB614931F0200B9AAF1 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		B51C0FB714931F0200B9AAF1 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		B51C0FB814931F0200B9AAF1 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		B51C0FB914931F0200B9AAF1 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		B51C0FBA14931F0200B9AAF1 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		B51C0FBB14931F0200B9AAF1 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		B51C0FBC14931F0200B9AAF1 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		B51C0FBD14931F0200B9AAF1 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		B51C0FBE14931F0200B9AAF1 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		B51C0FBF14931F0200B9AAF1 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		B51C0FC014931F0200B9AAF1 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		B51C0FC114931F0200B9AAF1 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		B51C0FC214931F0200B9AAF1 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		B51C0FC314931F0200B9AAF1 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		B51C0FC414931F0200B9AAF1 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		B51C0FC514931F0200B9AAF1 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		B51C0FC614931F0200B9AAF1 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		B51C0FC714931F0200B9AAF1 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		B51C0FC814931F0200B9AAF1 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		B51C0FC914931F0200B9AAF1 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		B51C0FCA14931F0200B9AAF1 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		B51C0FCB14931F0200B9AAF1 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		B51C0FCC14931F0200B9AAF1 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B51C0F4E1493113800B9AAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51C0F561493113800B9AAF1 /* UIKit.framework in Frameworks */,
+				B51C0F581493113800B9AAF1 /* Foundation.framework in Frameworks */,
+				B51C0F5A1493113800B9AAF1 /* CoreGraphics.framework in Frameworks */,
+				B51C0F5C1493113800B9AAF1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51C0F6D1493113900B9AAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51C0F731493113900B9AAF1 /* SenTestingKit.framework in Frameworks */,
+				B51C0F741493113900B9AAF1 /* UIKit.framework in Frameworks */,
+				B51C0F751493113900B9AAF1 /* Foundation.framework in Frameworks */,
+				B51C0F761493113900B9AAF1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B51C0F461493113800B9AAF1 = {
+			isa = PBXGroup;
+			children = (
+				B51C0F5D1493113800B9AAF1 /* wordstudy */,
+				B51C0F791493113900B9AAF1 /* wordstudyTests */,
+				B51C0F541493113800B9AAF1 /* Frameworks */,
+				B51C0F521493113800B9AAF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B51C0F521493113800B9AAF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B51C0F511493113800B9AAF1 /* wordstudy.app */,
+				B51C0F711493113900B9AAF1 /* wordstudyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B51C0F541493113800B9AAF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B51C0FB314931EE000B9AAF1 /* json */,
+				B51C0F551493113800B9AAF1 /* UIKit.framework */,
+				B51C0F571493113800B9AAF1 /* Foundation.framework */,
+				B51C0F591493113800B9AAF1 /* CoreGraphics.framework */,
+				B51C0F5B1493113800B9AAF1 /* CoreData.framework */,
+				B51C0F721493113900B9AAF1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B51C0F5D1493113800B9AAF1 /* wordstudy */ = {
+			isa = PBXGroup;
+			children = (
+				B51C0F661493113800B9AAF1 /* maartAppDelegate.h */,
+				B51C0F671493113800B9AAF1 /* maartAppDelegate.m */,
+				B51C0F691493113800B9AAF1 /* wordstudy.xcdatamodeld */,
+				B51C0F5E1493113800B9AAF1 /* Supporting Files */,
+				B51C0F961493152800B9AAF1 /* MainNavController.h */,
+				B51C0F971493152800B9AAF1 /* MainNavController.m */,
+			);
+			path = wordstudy;
+			sourceTree = "<group>";
+		};
+		B51C0F5E1493113800B9AAF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B51C0F5F1493113800B9AAF1 /* wordstudy-Info.plist */,
+				B51C0F601493113800B9AAF1 /* InfoPlist.strings */,
+				B51C0F631493113800B9AAF1 /* main.m */,
+				B51C0F651493113800B9AAF1 /* wordstudy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B51C0F791493113900B9AAF1 /* wordstudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B51C0F7F1493113900B9AAF1 /* wordstudyTests.h */,
+				B51C0F801493113900B9AAF1 /* wordstudyTests.m */,
+				B51C0F7A1493113900B9AAF1 /* Supporting Files */,
+			);
+			path = wordstudyTests;
+			sourceTree = "<group>";
+		};
+		B51C0F7A1493113900B9AAF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B51C0F7B1493113900B9AAF1 /* wordstudyTests-Info.plist */,
+				B51C0F7C1493113900B9AAF1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B51C0FB314931EE000B9AAF1 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				B51C0FB414931F0200B9AAF1 /* NSObject+SBJson.h */,
+				B51C0FB514931F0200B9AAF1 /* NSObject+SBJson.m */,
+				B51C0FB614931F0200B9AAF1 /* SBJson.h */,
+				B51C0FB714931F0200B9AAF1 /* SBJsonParser.h */,
+				B51C0FB814931F0200B9AAF1 /* SBJsonParser.m */,
+				B51C0FB914931F0200B9AAF1 /* SBJsonStreamParser.h */,
+				B51C0FBA14931F0200B9AAF1 /* SBJsonStreamParser.m */,
+				B51C0FBB14931F0200B9AAF1 /* SBJsonStreamParserAccumulator.h */,
+				B51C0FBC14931F0200B9AAF1 /* SBJsonStreamParserAccumulator.m */,
+				B51C0FBD14931F0200B9AAF1 /* SBJsonStreamParserAdapter.h */,
+				B51C0FBE14931F0200B9AAF1 /* SBJsonStreamParserAdapter.m */,
+				B51C0FBF14931F0200B9AAF1 /* SBJsonStreamParserState.h */,
+				B51C0FC014931F0200B9AAF1 /* SBJsonStreamParserState.m */,
+				B51C0FC114931F0200B9AAF1 /* SBJsonStreamWriter.h */,
+				B51C0FC214931F0200B9AAF1 /* SBJsonStreamWriter.m */,
+				B51C0FC314931F0200B9AAF1 /* SBJsonStreamWriterAccumulator.h */,
+				B51C0FC414931F0200B9AAF1 /* SBJsonStreamWriterAccumulator.m */,
+				B51C0FC514931F0200B9AAF1 /* SBJsonStreamWriterState.h */,
+				B51C0FC614931F0200B9AAF1 /* SBJsonStreamWriterState.m */,
+				B51C0FC714931F0200B9AAF1 /* SBJsonTokeniser.h */,
+				B51C0FC814931F0200B9AAF1 /* SBJsonTokeniser.m */,
+				B51C0FC914931F0200B9AAF1 /* SBJsonUTF8Stream.h */,
+				B51C0FCA14931F0200B9AAF1 /* SBJsonUTF8Stream.m */,
+				B51C0FCB14931F0200B9AAF1 /* SBJsonWriter.h */,
+				B51C0FCC14931F0200B9AAF1 /* SBJsonWriter.m */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B51C0F501493113800B9AAF1 /* wordstudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51C0F841493113900B9AAF1 /* Build configuration list for PBXNativeTarget "wordstudy" */;
+			buildPhases = (
+				B51C0F4D1493113800B9AAF1 /* Sources */,
+				B51C0F4E1493113800B9AAF1 /* Frameworks */,
+				B51C0F4F1493113800B9AAF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wordstudy;
+			productName = wordstudy;
+			productReference = B51C0F511493113800B9AAF1 /* wordstudy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B51C0F701493113900B9AAF1 /* wordstudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51C0F871493113900B9AAF1 /* Build configuration list for PBXNativeTarget "wordstudyTests" */;
+			buildPhases = (
+				B51C0F6C1493113900B9AAF1 /* Sources */,
+				B51C0F6D1493113900B9AAF1 /* Frameworks */,
+				B51C0F6E1493113900B9AAF1 /* Resources */,
+				B51C0F6F1493113900B9AAF1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51C0F781493113900B9AAF1 /* PBXTargetDependency */,
+			);
+			name = wordstudyTests;
+			productName = wordstudyTests;
+			productReference = B51C0F711493113900B9AAF1 /* wordstudyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B51C0F481493113800B9AAF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B51C0F4B1493113800B9AAF1 /* Build configuration list for PBXProject "wordstudy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B51C0F461493113800B9AAF1;
+			productRefGroup = B51C0F521493113800B9AAF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B51C0F501493113800B9AAF1 /* wordstudy */,
+				B51C0F701493113900B9AAF1 /* wordstudyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B51C0F4F1493113800B9AAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51C0F621493113800B9AAF1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51C0F6E1493113900B9AAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51C0F7E1493113900B9AAF1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B51C0F6F1493113900B9AAF1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B51C0F4D1493113800B9AAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51C0F641493113800B9AAF1 /* main.m in Sources */,
+				B51C0F681493113800B9AAF1 /* maartAppDelegate.m in Sources */,
+				B51C0F6B1493113800B9AAF1 /* wordstudy.xcdatamodeld in Sources */,
+				B51C0F981493152800B9AAF1 /* MainNavController.m in Sources */,
+				B51C0FCD14931F0200B9AAF1 /* NSObject+SBJson.m in Sources */,
+				B51C0FCE14931F0200B9AAF1 /* SBJsonParser.m in Sources */,
+				B51C0FCF14931F0200B9AAF1 /* SBJsonStreamParser.m in Sources */,
+				B51C0FD014931F0200B9AAF1 /* SBJsonStreamParserAccumulator.m in Sources */,
+				B51C0FD114931F0200B9AAF1 /* SBJsonStreamParserAdapter.m in Sources */,
+				B51C0FD214931F0200B9AAF1 /* SBJsonStreamParserState.m in Sources */,
+				B51C0FD314931F0200B9AAF1 /* SBJsonStreamWriter.m in Sources */,
+				B51C0FD414931F0200B9AAF1 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				B51C0FD514931F0200B9AAF1 /* SBJsonStreamWriterState.m in Sources */,
+				B51C0FD614931F0200B9AAF1 /* SBJsonTokeniser.m in Sources */,
+				B51C0FD714931F0200B9AAF1 /* SBJsonUTF8Stream.m in Sources */,
+				B51C0FD814931F0200B9AAF1 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51C0F6C1493113900B9AAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51C0F811493113900B9AAF1 /* wordstudyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B51C0F781493113900B9AAF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B51C0F501493113800B9AAF1 /* wordstudy */;
+			targetProxy = B51C0F771493113900B9AAF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B51C0F601493113800B9AAF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51C0F611493113800B9AAF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B51C0F7C1493113900B9AAF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51C0F7D1493113900B9AAF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B51C0F821493113900B9AAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B51C0F831493113900B9AAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B51C0F851493113900B9AAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wordstudy/wordstudy-Prefix.pch";
+				INFOPLIST_FILE = "wordstudy/wordstudy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B51C0F861493113900B9AAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wordstudy/wordstudy-Prefix.pch";
+				INFOPLIST_FILE = "wordstudy/wordstudy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B51C0F881493113900B9AAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wordstudy.app/wordstudy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wordstudy/wordstudy-Prefix.pch";
+				INFOPLIST_FILE = "wordstudyTests/wordstudyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B51C0F891493113900B9AAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wordstudy.app/wordstudy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wordstudy/wordstudy-Prefix.pch";
+				INFOPLIST_FILE = "wordstudyTests/wordstudyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B51C0F4B1493113800B9AAF1 /* Build configuration list for PBXProject "wordstudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51C0F821493113900B9AAF1 /* Debug */,
+				B51C0F831493113900B9AAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51C0F841493113900B9AAF1 /* Build configuration list for PBXNativeTarget "wordstudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51C0F851493113900B9AAF1 /* Debug */,
+				B51C0F861493113900B9AAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B51C0F871493113900B9AAF1 /* Build configuration list for PBXNativeTarget "wordstudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51C0F881493113900B9AAF1 /* Debug */,
+				B51C0F891493113900B9AAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B51C0F691493113800B9AAF1 /* wordstudy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B51C0F6A1493113800B9AAF1 /* wordstudy.xcdatamodel */,
+			);
+			currentVersion = B51C0F6A1493113800B9AAF1 /* wordstudy.xcdatamodel */;
+			path = wordstudy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B51C0F481493113800B9AAF1 /* Project object */;
+}
