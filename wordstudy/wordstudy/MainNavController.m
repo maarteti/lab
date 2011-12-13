@@ -20,6 +20,9 @@
 //    return self;
 //}
 
+
+@synthesize dataSource;
+
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.
@@ -54,7 +57,20 @@
     _writer = [[SBJsonWriter alloc] init];
     _writer.humanReadable = YES;
     _writer.sortKeys = YES;
-
+    
+    sBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, 320, 40)];
+    sBar.delegate = self;
+    [contentView addSubview:sBar];
+    
+    myTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 40, 320, 420) style:UITableViewStylePlain];
+    myTableView.delegate = self;
+    myTableView.dataSource = self;
+    [contentView addSubview:myTableView];
+    
+    //initialize the two arrays; dataSource will be initialized and populated by appDelegate
+    searchedData = [[NSMutableArray alloc]init];
+    tableData = [[NSMutableArray alloc]init];
+    [tableData addObjectsFromArray:dataSource];//on launch it should display all the records 
 }
 
 
@@ -82,9 +98,90 @@
 - (void)getDicJson
 {
     NSString *test = @"{\"test\":1, \"test2\":2}";
-    id object = [_parser objectWithString:test];
+    NSDictionary *dictionary = [_parser objectWithString:test];
+    NSLog(@"%@", [dictionary objectForKey:@"test"]);
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView 
+{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [tableData count];;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *MyIdentifier = @"MyIdentifier";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:MyIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:MyIdentifier];
+    }
     
-    NSLog(@"getDicJson");
+    cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
+
+    return cell;
+}
+
+
+//----
+
+- (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar
+{
+    // only show the status bar’s cancel button while in edit mode
+    sBar.showsCancelButton = YES;
+    sBar.autocorrectionType = UITextAutocorrectionTypeNo;
+    // flush the previous search content
+    [tableData removeAllObjects];
+}
+- (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar
+{
+    sBar.showsCancelButton = NO;
+}
+
+- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
+{
+    [tableData removeAllObjects];// remove all data that belongs to previous search
+    
+    if([searchText isEqualToString:@""] || searchText==nil){
+        [myTableView reloadData];
+        return;
+    }
+    NSInteger counter = 0;
+    for(NSString *name in dataSource)
+    {
+        NSRange r = [name rangeOfString:searchText];
+        if(r.location != NSNotFound)
+        {
+            if(r.location== 0)//that is we are checking only the start of the names.
+            {
+                [tableData addObject:name];
+            }
+        }
+        counter++;
+    }
+    [myTableView reloadData];
+}
+
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar
+{
+    // if a valid search was entered but the user wanted to cancel, bring back the main list content
+    [tableData removeAllObjects];
+    [tableData addObjectsFromArray:dataSource];
+    @try{
+        [myTableView reloadData];
+    }
+    @catch(NSException *e){
+    }
+    [sBar resignFirstResponder];
+    sBar.text = @"";
+}
+// called when Search (in our case “Done”) button pressed
+- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
+{
+    [searchBar resignFirstResponder];
 }
 
 @end

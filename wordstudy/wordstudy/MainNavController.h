@@ -11,9 +11,20 @@
 @class SBJsonParser;
 @class SBJsonWriter;
 
-@interface MainNavController : UINavigationController {
+@interface MainNavController : UIViewController <UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate> {
     SBJsonParser *_parser;
     SBJsonWriter *_writer;
+    
+    UISearchBar *sBar;    
+    UITableView *myTableView;
+    
+    NSMutableArray *dataSource; //will be storing all the data
+    NSMutableArray *tableData;//will be storing data that will be displayed in table
+    NSMutableArray *searchedData;//will be storing data matching with the search string
+
+    
 }
+
+@property(nonatomic,retain)NSMutableArray *dataSource;
 
 @end

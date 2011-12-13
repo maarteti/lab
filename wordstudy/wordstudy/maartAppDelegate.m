@@ -21,7 +21,18 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    self.window.rootViewController = [[MainNavController alloc] init];
+
+    MainNavController *viewController = [[MainNavController alloc] init];
+    // Override point for customization after app launch 
+    viewController.dataSource = [[NSMutableArray alloc]init];
+    for(char c = 'A';c<='Z';c++)
+        [viewController.dataSource addObject:[NSString stringWithFormat:@"%cTestString",c]];
+    UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:viewController];
+    viewController.title = @"Search";
+   
+    
+    
+    self.window.rootViewController = nvc;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
