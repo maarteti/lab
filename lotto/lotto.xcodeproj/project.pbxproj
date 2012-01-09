@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B505EED614BB2B59004CAA89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B505EED514BB2B59004CAA89 /* UIKit.framework */; };
+		B505EED814BB2B59004CAA89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B505EED714BB2B59004CAA89 /* Foundation.framework */; };
+		B505EEDA14BB2B59004CAA89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B505EED914BB2B59004CAA89 /* CoreGraphics.framework */; };
+		B505EEE014BB2B59004CAA89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B505EEDE14BB2B59004CAA89 /* InfoPlist.strings */; };
+		B505EEE214BB2B59004CAA89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B505EEE114BB2B59004CAA89 /* main.m */; };
+		B505EEE614BB2B59004CAA89 /* maartAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B505EEE514BB2B59004CAA89 /* maartAppDelegate.m */; };
+		B505EEE914BB2B59004CAA89 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B505EEE714BB2B59004CAA89 /* MainStoryboard.storyboard */; };
+		B505EEEC14BB2B59004CAA89 /* maartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B505EEEB14BB2B59004CAA89 /* maartViewController.m */; };
+		B505EEF414BB2B59004CAA89 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B505EEF314BB2B59004CAA89 /* SenTestingKit.framework */; };
+		B505EEF514BB2B59004CAA89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B505EED514BB2B59004CAA89 /* UIKit.framework */; };
+		B505EEF614BB2B59004CAA89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B505EED714BB2B59004CAA89 /* Foundation.framework */; };
+		B505EEFE14BB2B59004CAA89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B505EEFC14BB2B59004CAA89 /* InfoPlist.strings */; };
+		B505EF0114BB2B59004CAA89 /* lottoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B505EF0014BB2B59004CAA89 /* lottoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B505EEF714BB2B59004CAA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B505EEC814BB2B59004CAA89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B505EED014BB2B59004CAA89;
+			remoteInfo = lotto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B505EED114BB2B59004CAA89 /* lotto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lotto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B505EED514BB2B59004CAA89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B505EED714BB2B59004CAA89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B505EED914BB2B59004CAA89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B505EEDD14BB2B59004CAA89 /* lotto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lotto-Info.plist"; sourceTree = "<group>"; };
+		B505EEDF14BB2B59004CAA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B505EEE114BB2B59004CAA89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B505EEE314BB2B59004CAA89 /* lotto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lotto-Prefix.pch"; sourceTree = "<group>"; };
+		B505EEE414BB2B59004CAA89 /* maartAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maartAppDelegate.h; sourceTree = "<group>"; };
+		B505EEE514BB2B59004CAA89 /* maartAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maartAppDelegate.m; sourceTree = "<group>"; };
+		B505EEE814BB2B59004CAA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B505EEEA14BB2B59004CAA89 /* maartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maartViewController.h; sourceTree = "<group>"; };
+		B505EEEB14BB2B59004CAA89 /* maartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maartViewController.m; sourceTree = "<group>"; };
+		B505EEF214BB2B59004CAA89 /* lottoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lottoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B505EEF314BB2B59004CAA89 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B505EEFB14BB2B59004CAA89 /* lottoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lottoTests-Info.plist"; sourceTree = "<group>"; };
+		B505EEFD14BB2B59004CAA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B505EEFF14BB2B59004CAA89 /* lottoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lottoTests.h; sourceTree = "<group>"; };
+		B505EF0014BB2B59004CAA89 /* lottoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lottoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B505EECE14BB2B59004CAA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505EED614BB2B59004CAA89 /* UIKit.framework in Frameworks */,
+				B505EED814BB2B59004CAA89 /* Foundation.framework in Frameworks */,
+				B505EEDA14BB2B59004CAA89 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B505EEEE14BB2B59004CAA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505EEF414BB2B59004CAA89 /* SenTestingKit.framework in Frameworks */,
+				B505EEF514BB2B59004CAA89 /* UIKit.framework in Frameworks */,
+				B505EEF614BB2B59004CAA89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B505EEC614BB2B59004CAA89 = {
+			isa = PBXGroup;
+			children = (
+				B505EEDB14BB2B59004CAA89 /* lotto */,
+				B505EEF914BB2B59004CAA89 /* lottoTests */,
+				B505EED414BB2B59004CAA89 /* Frameworks */,
+				B505EED214BB2B59004CAA89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B505EED214BB2B59004CAA89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B505EED114BB2B59004CAA89 /* lotto.app */,
+				B505EEF214BB2B59004CAA89 /* lottoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B505EED414BB2B59004CAA89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B505EED514BB2B59004CAA89 /* UIKit.framework */,
+				B505EED714BB2B59004CAA89 /* Foundation.framework */,
+				B505EED914BB2B59004CAA89 /* CoreGraphics.framework */,
+				B505EEF314BB2B59004CAA89 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B505EEDB14BB2B59004CAA89 /* lotto */ = {
+			isa = PBXGroup;
+			children = (
+				B505EEE414BB2B59004CAA89 /* maartAppDelegate.h */,
+				B505EEE514BB2B59004CAA89 /* maartAppDelegate.m */,
+				B505EEE714BB2B59004CAA89 /* MainStoryboard.storyboard */,
+				B505EEEA14BB2B59004CAA89 /* maartViewController.h */,
+				B505EEEB14BB2B59004CAA89 /* maartViewController.m */,
+				B505EEDC14BB2B59004CAA89 /* Supporting Files */,
+			);
+			path = lotto;
+			sourceTree = "<group>";
+		};
+		B505EEDC14BB2B59004CAA89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B505EEDD14BB2B59004CAA89 /* lotto-Info.plist */,
+				B505EEDE14BB2B59004CAA89 /* InfoPlist.strings */,
+				B505EEE114BB2B59004CAA89 /* main.m */,
+				B505EEE314BB2B59004CAA89 /* lotto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B505EEF914BB2B59004CAA89 /* lottoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B505EEFF14BB2B59004CAA89 /* lottoTests.h */,
+				B505EF0014BB2B59004CAA89 /* lottoTests.m */,
+				B505EEFA14BB2B59004CAA89 /* Supporting Files */,
+			);
+			path = lottoTests;
+			sourceTree = "<group>";
+		};
+		B505EEFA14BB2B59004CAA89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B505EEFB14BB2B59004CAA89 /* lottoTests-Info.plist */,
+				B505EEFC14BB2B59004CAA89 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B505EED014BB2B59004CAA89 /* lotto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B505EF0414BB2B59004CAA89 /* Build configuration list for PBXNativeTarget "lotto" */;
+			buildPhases = (
+				B505EECD14BB2B59004CAA89 /* Sources */,
+				B505EECE14BB2B59004CAA89 /* Frameworks */,
+				B505EECF14BB2B59004CAA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lotto;
+			productName = lotto;
+			productReference = B505EED114BB2B59004CAA89 /* lotto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B505EEF114BB2B59004CAA89 /* lottoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B505EF0714BB2B59004CAA89 /* Build configuration list for PBXNativeTarget "lottoTests" */;
+			buildPhases = (
+				B505EEED14BB2B59004CAA89 /* Sources */,
+				B505EEEE14BB2B59004CAA89 /* Frameworks */,
+				B505EEEF14BB2B59004CAA89 /* Resources */,
+				B505EEF014BB2B59004CAA89 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B505EEF814BB2B59004CAA89 /* PBXTargetDependency */,
+			);
+			name = lottoTests;
+			productName = lottoTests;
+			productReference = B505EEF214BB2B59004CAA89 /* lottoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B505EEC814BB2B59004CAA89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B505EECB14BB2B59004CAA89 /* Build configuration list for PBXProject "lotto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B505EEC614BB2B59004CAA89;
+			productRefGroup = B505EED214BB2B59004CAA89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B505EED014BB2B59004CAA89 /* lotto */,
+				B505EEF114BB2B59004CAA89 /* lottoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B505EECF14BB2B59004CAA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505EEE014BB2B59004CAA89 /* InfoPlist.strings in Resources */,
+				B505EEE914BB2B59004CAA89 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B505EEEF14BB2B59004CAA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505EEFE14BB2B59004CAA89 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B505EEF014BB2B59004CAA89 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B505EECD14BB2B59004CAA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505EEE214BB2B59004CAA89 /* main.m in Sources */,
+				B505EEE614BB2B59004CAA89 /* maartAppDelegate.m in Sources */,
+				B505EEEC14BB2B59004CAA89 /* maartViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B505EEED14BB2B59004CAA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505EF0114BB2B59004CAA89 /* lottoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B505EEF814BB2B59004CAA89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B505EED014BB2B59004CAA89 /* lotto */;
+			targetProxy = B505EEF714BB2B59004CAA89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B505EEDE14BB2B59004CAA89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B505EEDF14BB2B59004CAA89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B505EEE714BB2B59004CAA89 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B505EEE814BB2B59004CAA89 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		B505EEFC14BB2B59004CAA89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B505EEFD14BB2B59004CAA89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B505EF0214BB2B59004CAA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B505EF0314BB2B59004CAA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B505EF0514BB2B59004CAA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lotto/lotto-Prefix.pch";
+				INFOPLIST_FILE = "lotto/lotto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B505EF0614BB2B59004CAA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lotto/lotto-Prefix.pch";
+				INFOPLIST_FILE = "lotto/lotto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B505EF0814BB2B59004CAA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lotto.app/lotto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lotto/lotto-Prefix.pch";
+				INFOPLIST_FILE = "lottoTests/lottoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B505EF0914BB2B59004CAA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lotto.app/lotto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "lotto/lotto-Prefix.pch";
+				INFOPLIST_FILE = "lottoTests/lottoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B505EECB14BB2B59004CAA89 /* Build configuration list for PBXProject "lotto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B505EF0214BB2B59004CAA89 /* Debug */,
+				B505EF0314BB2B59004CAA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B505EF0414BB2B59004CAA89 /* Build configuration list for PBXNativeTarget "lotto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B505EF0514BB2B59004CAA89 /* Debug */,
+				B505EF0614BB2B59004CAA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B505EF0714BB2B59004CAA89 /* Build configuration list for PBXNativeTarget "lottoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B505EF0814BB2B59004CAA89 /* Debug */,
+				B505EF0914BB2B59004CAA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B505EEC814BB2B59004CAA89 /* Project object */;
+}
