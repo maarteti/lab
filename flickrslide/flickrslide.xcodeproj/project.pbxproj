@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B505EF1A14BB389D004CAA89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B505EF1914BB389D004CAA89 /* UIKit.framework */; };
+		B505EF1C14BB389D004CAA89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B505EF1B14BB389D004CAA89 /* Foundation.framework */; };
+		B505EF1E14BB389D004CAA89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B505EF1D14BB389D004CAA89 /* CoreGraphics.framework */; };
+		B505EF2414BB389D004CAA89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B505EF2214BB389D004CAA89 /* InfoPlist.strings */; };
+		B505EF2614BB389D004CAA89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B505EF2514BB389D004CAA89 /* main.m */; };
+		B505EF2A14BB389D004CAA89 /* maartAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B505EF2914BB389D004CAA89 /* maartAppDelegate.m */; };
+		B505EF2D14BB389D004CAA89 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B505EF2B14BB389D004CAA89 /* MainStoryboard.storyboard */; };
+		B505EF3014BB389D004CAA89 /* maartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B505EF2F14BB389D004CAA89 /* maartViewController.m */; };
+		B505EF3814BB389D004CAA89 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B505EF3714BB389D004CAA89 /* SenTestingKit.framework */; };
+		B505EF3914BB389D004CAA89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B505EF1914BB389D004CAA89 /* UIKit.framework */; };
+		B505EF3A14BB389D004CAA89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B505EF1B14BB389D004CAA89 /* Foundation.framework */; };
+		B505EF4214BB389D004CAA89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B505EF4014BB389D004CAA89 /* InfoPlist.strings */; };
+		B505EF4514BB389D004CAA89 /* flickrslideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B505EF4414BB389D004CAA89 /* flickrslideTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B505EF3B14BB389D004CAA89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B505EF0C14BB389D004CAA89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B505EF1414BB389D004CAA89;
+			remoteInfo = flickrslide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B505EF1514BB389D004CAA89 /* flickrslide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flickrslide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B505EF1914BB389D004CAA89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B505EF1B14BB389D004CAA89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B505EF1D14BB389D004CAA89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B505EF2114BB389D004CAA89 /* flickrslide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flickrslide-Info.plist"; sourceTree = "<group>"; };
+		B505EF2314BB389D004CAA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B505EF2514BB389D004CAA89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B505EF2714BB389D004CAA89 /* flickrslide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flickrslide-Prefix.pch"; sourceTree = "<group>"; };
+		B505EF2814BB389D004CAA89 /* maartAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maartAppDelegate.h; sourceTree = "<group>"; };
+		B505EF2914BB389D004CAA89 /* maartAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maartAppDelegate.m; sourceTree = "<group>"; };
+		B505EF2C14BB389D004CAA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B505EF2E14BB389D004CAA89 /* maartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maartViewController.h; sourceTree = "<group>"; };
+		B505EF2F14BB389D004CAA89 /* maartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maartViewController.m; sourceTree = "<group>"; };
+		B505EF3614BB389D004CAA89 /* flickrslideTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flickrslideTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B505EF3714BB389D004CAA89 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B505EF3F14BB389D004CAA89 /* flickrslideTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flickrslideTests-Info.plist"; sourceTree = "<group>"; };
+		B505EF4114BB389D004CAA89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B505EF4314BB389D004CAA89 /* flickrslideTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flickrslideTests.h; sourceTree = "<group>"; };
+		B505EF4414BB389D004CAA89 /* flickrslideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flickrslideTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B505EF1214BB389D004CAA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505EF1A14BB389D004CAA89 /* UIKit.framework in Frameworks */,
+				B505EF1C14BB389D004CAA89 /* Foundation.framework in Frameworks */,
+				B505EF1E14BB389D004CAA89 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B505EF3214BB389D004CAA89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505EF3814BB389D004CAA89 /* SenTestingKit.framework in Frameworks */,
+				B505EF3914BB389D004CAA89 /* UIKit.framework in Frameworks */,
+				B505EF3A14BB389D004CAA89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B505EF0A14BB389D004CAA89 = {
+			isa = PBXGroup;
+			children = (
+				B505EF1F14BB389D004CAA89 /* flickrslide */,
+				B505EF3D14BB389D004CAA89 /* flickrslideTests */,
+				B505EF1814BB389D004CAA89 /* Frameworks */,
+				B505EF1614BB389D004CAA89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B505EF1614BB389D004CAA89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B505EF1514BB389D004CAA89 /* flickrslide.app */,
+				B505EF3614BB389D004CAA89 /* flickrslideTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B505EF1814BB389D004CAA89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B505EF1914BB389D004CAA89 /* UIKit.framework */,
+				B505EF1B14BB389D004CAA89 /* Foundation.framework */,
+				B505EF1D14BB389D004CAA89 /* CoreGraphics.framework */,
+				B505EF3714BB389D004CAA89 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B505EF1F14BB389D004CAA89 /* flickrslide */ = {
+			isa = PBXGroup;
+			children = (
+				B505EF2814BB389D004CAA89 /* maartAppDelegate.h */,
+				B505EF2914BB389D004CAA89 /* maartAppDelegate.m */,
+				B505EF2B14BB389D004CAA89 /* MainStoryboard.storyboard */,
+				B505EF2E14BB389D004CAA89 /* maartViewController.h */,
+				B505EF2F14BB389D004CAA89 /* maartViewController.m */,
+				B505EF2014BB389D004CAA89 /* Supporting Files */,
+			);
+			path = flickrslide;
+			sourceTree = "<group>";
+		};
+		B505EF2014BB389D004CAA89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B505EF2114BB389D004CAA89 /* flickrslide-Info.plist */,
+				B505EF2214BB389D004CAA89 /* InfoPlist.strings */,
+				B505EF2514BB389D004CAA89 /* main.m */,
+				B505EF2714BB389D004CAA89 /* flickrslide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B505EF3D14BB389D004CAA89 /* flickrslideTests */ = {
+			isa = PBXGroup;
+			children = (
+				B505EF4314BB389D004CAA89 /* flickrslideTests.h */,
+				B505EF4414BB389D004CAA89 /* flickrslideTests.m */,
+				B505EF3E14BB389D004CAA89 /* Supporting Files */,
+			);
+			path = flickrslideTests;
+			sourceTree = "<group>";
+		};
+		B505EF3E14BB389D004CAA89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B505EF3F14BB389D004CAA89 /* flickrslideTests-Info.plist */,
+				B505EF4014BB389D004CAA89 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B505EF1414BB389D004CAA89 /* flickrslide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B505EF4814BB389D004CAA89 /* Build configuration list for PBXNativeTarget "flickrslide" */;
+			buildPhases = (
+				B505EF1114BB389D004CAA89 /* Sources */,
+				B505EF1214BB389D004CAA89 /* Frameworks */,
+				B505EF1314BB389D004CAA89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flickrslide;
+			productName = flickrslide;
+			productReference = B505EF1514BB389D004CAA89 /* flickrslide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B505EF3514BB389D004CAA89 /* flickrslideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B505EF4B14BB389D004CAA89 /* Build configuration list for PBXNativeTarget "flickrslideTests" */;
+			buildPhases = (
+				B505EF3114BB389D004CAA89 /* Sources */,
+				B505EF3214BB389D004CAA89 /* Frameworks */,
+				B505EF3314BB389D004CAA89 /* Resources */,
+				B505EF3414BB389D004CAA89 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B505EF3C14BB389D004CAA89 /* PBXTargetDependency */,
+			);
+			name = flickrslideTests;
+			productName = flickrslideTests;
+			productReference = B505EF3614BB389D004CAA89 /* flickrslideTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B505EF0C14BB389D004CAA89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B505EF0F14BB389D004CAA89 /* Build configuration list for PBXProject "flickrslide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B505EF0A14BB389D004CAA89;
+			productRefGroup = B505EF1614BB389D004CAA89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B505EF1414BB389D004CAA89 /* flickrslide */,
+				B505EF3514BB389D004CAA89 /* flickrslideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B505EF1314BB389D004CAA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505EF2414BB389D004CAA89 /* InfoPlist.strings in Resources */,
+				B505EF2D14BB389D004CAA89 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B505EF3314BB389D004CAA89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505EF4214BB389D004CAA89 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B505EF3414BB389D004CAA89 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B505EF1114BB389D004CAA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505EF2614BB389D004CAA89 /* main.m in Sources */,
+				B505EF2A14BB389D004CAA89 /* maartAppDelegate.m in Sources */,
+				B505EF3014BB389D004CAA89 /* maartViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B505EF3114BB389D004CAA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505EF4514BB389D004CAA89 /* flickrslideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B505EF3C14BB389D004CAA89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B505EF1414BB389D004CAA89 /* flickrslide */;
+			targetProxy = B505EF3B14BB389D004CAA89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B505EF2214BB389D004CAA89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B505EF2314BB389D004CAA89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B505EF2B14BB389D004CAA89 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B505EF2C14BB389D004CAA89 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		B505EF4014BB389D004CAA89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B505EF4114BB389D004CAA89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B505EF4614BB389D004CAA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B505EF4714BB389D004CAA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B505EF4914BB389D004CAA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flickrslide/flickrslide-Prefix.pch";
+				INFOPLIST_FILE = "flickrslide/flickrslide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B505EF4A14BB389D004CAA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flickrslide/flickrslide-Prefix.pch";
+				INFOPLIST_FILE = "flickrslide/flickrslide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B505EF4C14BB389D004CAA89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/flickrslide.app/flickrslide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flickrslide/flickrslide-Prefix.pch";
+				INFOPLIST_FILE = "flickrslideTests/flickrslideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B505EF4D14BB389D004CAA89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/flickrslide.app/flickrslide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flickrslide/flickrslide-Prefix.pch";
+				INFOPLIST_FILE = "flickrslideTests/flickrslideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B505EF0F14BB389D004CAA89 /* Build configuration list for PBXProject "flickrslide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B505EF4614BB389D004CAA89 /* Debug */,
+				B505EF4714BB389D004CAA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B505EF4814BB389D004CAA89 /* Build configuration list for PBXNativeTarget "flickrslide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B505EF4914BB389D004CAA89 /* Debug */,
+				B505EF4A14BB389D004CAA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B505EF4B14BB389D004CAA89 /* Build configuration list for PBXNativeTarget "flickrslideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B505EF4C14BB389D004CAA89 /* Debug */,
+				B505EF4D14BB389D004CAA89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B505EF0C14BB389D004CAA89 /* Project object */;
+}

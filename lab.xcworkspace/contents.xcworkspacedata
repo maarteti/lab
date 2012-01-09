@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:flickrslide/flickrslide.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:lotto/lotto.xcodeproj">
    </FileRef>
    <FileRef
