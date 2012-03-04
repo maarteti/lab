@@ -6,14 +6,21 @@
 //  Copyright (c) 2012년 __MyCompanyName__. All rights reserved.
 //
 
-#import "maartAppDelegate.h"
+#import "flickrslideAppDelegate.h"
+#define OBJECTIVE_FLICKR_SAMPLE_API_KEY             @"2b52082ebf9ffb81351f4b9be3a8b7c0"
+#define OBJECTIVE_FLICKR_SAMPLE_API_SHARED_SECRET   @"d64f15f8e18c057a"
 
-@implementation maartAppDelegate
+@implementation flickrslideAppDelegate
 
 @synthesize window = _window;
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    context = [[OFFlickrAPIContext alloc] initWithAPIKey:OBJECTIVE_FLICKR_SAMPLE_API_KEY sharedSecret:OBJECTIVE_FLICKR_SAMPLE_API_SHARED_SECRET];
+    request = [[OFFlickrAPIRequest alloc] initWithAPIContext:context];
+    [request setDelegate:self];
+    
     // Override point for customization after application launch.
     return YES;
 }
@@ -56,5 +63,40 @@
      See also applicationDidEnterBackground:.
      */
 }
+
+
++ (flickrslideAppDelegate *)sharedDelegate
+{
+    return (flickrslideAppDelegate *)[[UIApplication sharedApplication] delegate];
+}
+//- (void)flickrAPIRequest:(OFFlickrAPIRequest *)inRequest didObtainOAuthRequestToken:(NSString *)inRequestToken secret:(NSString *)inSecret
+//{
+//    // these two lines are important
+//    [SnapAndRunAppDelegate sharedDelegate].flickrContext.OAuthToken = inRequestToken;
+//    [SnapAndRunAppDelegate sharedDelegate].flickrContext.OAuthTokenSecret = inSecret;
+//    
+//    NSURL *authURL = [[SnapAndRunAppDelegate sharedDelegate].flickrContext userAuthorizationURLWithRequestToken:inRequestToken requestedPermission:OFFlickrWritePermission];
+//    [[UIApplication sharedApplication] openURL:authURL];    
+//}
+
+- (OFFlickrAPIContext *)flickrContext
+{
+    if (!flickrContext) {
+        flickrContext = [[OFFlickrAPIContext alloc] initWithAPIKey:OBJECTIVE_FLICKR_SAMPLE_API_KEY sharedSecret:OBJECTIVE_FLICKR_SAMPLE_API_SHARED_SECRET];
+        
+        NSString *authToken = [[NSUserDefaults standardUserDefaults] objectForKey:kStoredAuthTokenKeyName];
+        NSString *authTokenSecret = [[NSUserDefaults standardUserDefaults] objectForKey:kStoredAuthTokenSecretKeyName];
+        
+        if (([authToken length] > 0) && ([authTokenSecret length] > 0)) {
+            flickrContext.OAuthToken = authToken;
+            flickrContext.OAuthTokenSecret = authTokenSecret;
+        }
+    }
+    
+    return flickrContext;
+}
+
+@synthesize flickrContext;
+@synthesize fli
 
 @end

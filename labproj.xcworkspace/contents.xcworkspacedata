@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:test/imageListTest/imageListTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:test/tableTest/tableTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:test/navigationTest/navigationTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:swifetest/swifetest.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,8 +1,8 @@
 //
 //  maartAppDelegate.h
-//  flickrslide
+//  swifetest
 //
-//  Created by jinwoo choi on 12. 1. 10..
+//  Created by jinwoo choi on 12. 1. 28..
 //  Copyright (c) 2012년 __MyCompanyName__. All rights reserved.
 //
 

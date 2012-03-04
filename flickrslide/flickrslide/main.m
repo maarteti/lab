@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "maartAppDelegate.h"
+#import "flickrslideAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([maartAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([flickrslideAppDelegate class]));
     }
 }

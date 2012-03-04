@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ObjectiveFlickr.h"
 
-@interface maartViewController : UIViewController {
+@interface maartViewController : UIViewController <OFFlickrAPIRequestDelegate> {
     IBOutlet UIScrollView *scrollView;
+    IBOutlet UIButton *btnView;
 }
+
+- (IBAction) btnClick1;
 
 @end

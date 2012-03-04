@@ -1,0 +1,92 @@
+//
+//  SecondViewController.m
+//  swifetest
+//
+//  Created by jinwoo choi on 12. 1. 28..
+//  Copyright (c) 2012년 __MyCompanyName__. All rights reserved.
+//
+
+#import "SecondViewController.h"
+
+@implementation SecondViewController
+
+@synthesize delegate;
+
+- (id)init
+{
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 460)];
+    [view setBackgroundColor:[UIColor redColor]];
+    
+    UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(30, 30, 100, 100)];
+    [lbl setText:@"test"];
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [btn setTitle:@"title" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(done:) forControlEvents:UIControlEventTouchDown];
+    [btn setBounds:CGRectMake(0, 0, 100, 30)];
+    [btn setCenter:CGPointMake(100, 200)];
+    
+    [view addSubview:btn];
+    
+    [view addSubview:lbl];
+    
+    self.view = view;
+    
+    return self;
+}
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+- (void)didReceiveMemoryWarning
+{
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+    // Release any cached data, images, etc that aren't in use.
+}
+
+#pragma mark - View lifecycle
+
+/*
+// Implement loadView to create a view hierarchy programmatically, without using a nib.
+- (void)loadView
+{
+}
+*/
+
+/*
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+}
+*/
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+-(IBAction)done:(id)sender
+{
+    NSLog(@"dong");
+    [self.delegate secondViewControllerDidFinish:self];
+}
+
+@end

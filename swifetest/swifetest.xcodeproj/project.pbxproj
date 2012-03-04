@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B57B04F214D37854000BA3AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57B04F114D37854000BA3AC /* UIKit.framework */; };
+		B57B04F414D37854000BA3AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57B04F314D37854000BA3AC /* Foundation.framework */; };
+		B57B04F614D37854000BA3AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57B04F514D37854000BA3AC /* CoreGraphics.framework */; };
+		B57B04FC14D37854000BA3AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B57B04FA14D37854000BA3AC /* InfoPlist.strings */; };
+		B57B04FE14D37854000BA3AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B57B04FD14D37854000BA3AC /* main.m */; };
+		B57B050214D37854000BA3AC /* maartAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B57B050114D37854000BA3AC /* maartAppDelegate.m */; };
+		B57B050514D37854000BA3AC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57B050314D37854000BA3AC /* MainStoryboard.storyboard */; };
+		B57B050814D37854000BA3AC /* maartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57B050714D37854000BA3AC /* maartViewController.m */; };
+		B57B051014D37854000BA3AC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57B050F14D37854000BA3AC /* SenTestingKit.framework */; };
+		B57B051114D37854000BA3AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57B04F114D37854000BA3AC /* UIKit.framework */; };
+		B57B051214D37854000BA3AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57B04F314D37854000BA3AC /* Foundation.framework */; };
+		B57B051A14D37854000BA3AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B57B051814D37854000BA3AC /* InfoPlist.strings */; };
+		B57B051D14D37854000BA3AC /* swifetestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B57B051C14D37854000BA3AC /* swifetestTests.m */; };
+		B57B052E14D37B61000BA3AC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57B052D14D37B61000BA3AC /* SecondViewController.m */; };
+		B5A636ED14D45508002C88FA /* SwifeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A636EC14D45508002C88FA /* SwifeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B57B051314D37854000BA3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B57B04E414D37854000BA3AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B57B04EC14D37854000BA3AC;
+			remoteInfo = swifetest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B57B04ED14D37854000BA3AC /* swifetest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swifetest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57B04F114D37854000BA3AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B57B04F314D37854000BA3AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B57B04F514D37854000BA3AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B57B04F914D37854000BA3AC /* swifetest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "swifetest-Info.plist"; sourceTree = "<group>"; };
+		B57B04FB14D37854000BA3AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B57B04FD14D37854000BA3AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B57B04FF14D37854000BA3AC /* swifetest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swifetest-Prefix.pch"; sourceTree = "<group>"; };
+		B57B050014D37854000BA3AC /* maartAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maartAppDelegate.h; sourceTree = "<group>"; };
+		B57B050114D37854000BA3AC /* maartAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maartAppDelegate.m; sourceTree = "<group>"; };
+		B57B050414D37854000BA3AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B57B050614D37854000BA3AC /* maartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maartViewController.h; sourceTree = "<group>"; };
+		B57B050714D37854000BA3AC /* maartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = maartViewController.m; sourceTree = "<group>"; };
+		B57B050E14D37854000BA3AC /* swifetestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swifetestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57B050F14D37854000BA3AC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B57B051714D37854000BA3AC /* swifetestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "swifetestTests-Info.plist"; sourceTree = "<group>"; };
+		B57B051914D37854000BA3AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B57B051B14D37854000BA3AC /* swifetestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swifetestTests.h; sourceTree = "<group>"; };
+		B57B051C14D37854000BA3AC /* swifetestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = swifetestTests.m; sourceTree = "<group>"; };
+		B57B052C14D37B61000BA3AC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B57B052D14D37B61000BA3AC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B5A636EB14D45508002C88FA /* SwifeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwifeView.h; sourceTree = "<group>"; };
+		B5A636EC14D45508002C88FA /* SwifeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwifeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B57B04EA14D37854000BA3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57B04F214D37854000BA3AC /* UIKit.framework in Frameworks */,
+				B57B04F414D37854000BA3AC /* Foundation.framework in Frameworks */,
+				B57B04F614D37854000BA3AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57B050A14D37854000BA3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57B051014D37854000BA3AC /* SenTestingKit.framework in Frameworks */,
+				B57B051114D37854000BA3AC /* UIKit.framework in Frameworks */,
+				B57B051214D37854000BA3AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B57B04E214D37854000BA3AC = {
+			isa = PBXGroup;
+			children = (
+				B57B04F714D37854000BA3AC /* swifetest */,
+				B57B051514D37854000BA3AC /* swifetestTests */,
+				B57B04F014D37854000BA3AC /* Frameworks */,
+				B57B04EE14D37854000BA3AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B57B04EE14D37854000BA3AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B57B04ED14D37854000BA3AC /* swifetest.app */,
+				B57B050E14D37854000BA3AC /* swifetestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B57B04F014D37854000BA3AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B57B04F114D37854000BA3AC /* UIKit.framework */,
+				B57B04F314D37854000BA3AC /* Foundation.framework */,
+				B57B04F514D37854000BA3AC /* CoreGraphics.framework */,
+				B57B050F14D37854000BA3AC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B57B04F714D37854000BA3AC /* swifetest */ = {
+			isa = PBXGroup;
+			children = (
+				B57B050014D37854000BA3AC /* maartAppDelegate.h */,
+				B57B050114D37854000BA3AC /* maartAppDelegate.m */,
+				B57B050314D37854000BA3AC /* MainStoryboard.storyboard */,
+				B57B052C14D37B61000BA3AC /* SecondViewController.h */,
+				B57B052D14D37B61000BA3AC /* SecondViewController.m */,
+				B57B050614D37854000BA3AC /* maartViewController.h */,
+				B57B050714D37854000BA3AC /* maartViewController.m */,
+				B57B04F814D37854000BA3AC /* Supporting Files */,
+				B5A636EB14D45508002C88FA /* SwifeView.h */,
+				B5A636EC14D45508002C88FA /* SwifeView.m */,
+			);
+			path = swifetest;
+			sourceTree = "<group>";
+		};
+		B57B04F814D37854000BA3AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B57B04F914D37854000BA3AC /* swifetest-Info.plist */,
+				B57B04FA14D37854000BA3AC /* InfoPlist.strings */,
+				B57B04FD14D37854000BA3AC /* main.m */,
+				B57B04FF14D37854000BA3AC /* swifetest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B57B051514D37854000BA3AC /* swifetestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B57B051B14D37854000BA3AC /* swifetestTests.h */,
+				B57B051C14D37854000BA3AC /* swifetestTests.m */,
+				B57B051614D37854000BA3AC /* Supporting Files */,
+			);
+			path = swifetestTests;
+			sourceTree = "<group>";
+		};
+		B57B051614D37854000BA3AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B57B051714D37854000BA3AC /* swifetestTests-Info.plist */,
+				B57B051814D37854000BA3AC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B57B04EC14D37854000BA3AC /* swifetest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57B052014D37854000BA3AC /* Build configuration list for PBXNativeTarget "swifetest" */;
+			buildPhases = (
+				B57B04E914D37854000BA3AC /* Sources */,
+				B57B04EA14D37854000BA3AC /* Frameworks */,
+				B57B04EB14D37854000BA3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swifetest;
+			productName = swifetest;
+			productReference = B57B04ED14D37854000BA3AC /* swifetest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B57B050D14D37854000BA3AC /* swifetestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57B052314D37854000BA3AC /* Build configuration list for PBXNativeTarget "swifetestTests" */;
+			buildPhases = (
+				B57B050914D37854000BA3AC /* Sources */,
+				B57B050A14D37854000BA3AC /* Frameworks */,
+				B57B050B14D37854000BA3AC /* Resources */,
+				B57B050C14D37854000BA3AC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B57B051414D37854000BA3AC /* PBXTargetDependency */,
+			);
+			name = swifetestTests;
+			productName = swifetestTests;
+			productReference = B57B050E14D37854000BA3AC /* swifetestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B57B04E414D37854000BA3AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B57B04E714D37854000BA3AC /* Build configuration list for PBXProject "swifetest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B57B04E214D37854000BA3AC;
+			productRefGroup = B57B04EE14D37854000BA3AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B57B04EC14D37854000BA3AC /* swifetest */,
+				B57B050D14D37854000BA3AC /* swifetestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B57B04EB14D37854000BA3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57B04FC14D37854000BA3AC /* InfoPlist.strings in Resources */,
+				B57B050514D37854000BA3AC /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57B050B14D37854000BA3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57B051A14D37854000BA3AC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B57B050C14D37854000BA3AC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B57B04E914D37854000BA3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57B04FE14D37854000BA3AC /* main.m in Sources */,
+				B57B050214D37854000BA3AC /* maartAppDelegate.m in Sources */,
+				B57B050814D37854000BA3AC /* maartViewController.m in Sources */,
+				B57B052E14D37B61000BA3AC /* SecondViewController.m in Sources */,
+				B5A636ED14D45508002C88FA /* SwifeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57B050914D37854000BA3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57B051D14D37854000BA3AC /* swifetestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B57B051414D37854000BA3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B57B04EC14D37854000BA3AC /* swifetest */;
+			targetProxy = B57B051314D37854000BA3AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B57B04FA14D37854000BA3AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57B04FB14D37854000BA3AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B57B050314D37854000BA3AC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57B050414D37854000BA3AC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		B57B051814D37854000BA3AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B57B051914D37854000BA3AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B57B051E14D37854000BA3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B57B051F14D37854000BA3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57B052114D37854000BA3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "swifetest/swifetest-Prefix.pch";
+				INFOPLIST_FILE = "swifetest/swifetest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B57B052214D37854000BA3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "swifetest/swifetest-Prefix.pch";
+				INFOPLIST_FILE = "swifetest/swifetest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B57B052414D37854000BA3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/swifetest.app/swifetest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "swifetest/swifetest-Prefix.pch";
+				INFOPLIST_FILE = "swifetestTests/swifetestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B57B052514D37854000BA3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/swifetest.app/swifetest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "swifetest/swifetest-Prefix.pch";
+				INFOPLIST_FILE = "swifetestTests/swifetestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B57B04E714D37854000BA3AC /* Build configuration list for PBXProject "swifetest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57B051E14D37854000BA3AC /* Debug */,
+				B57B051F14D37854000BA3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57B052014D37854000BA3AC /* Build configuration list for PBXNativeTarget "swifetest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57B052114D37854000BA3AC /* Debug */,
+				B57B052214D37854000BA3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57B052314D37854000BA3AC /* Build configuration list for PBXNativeTarget "swifetestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57B052414D37854000BA3AC /* Debug */,
+				B57B052514D37854000BA3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B57B04E414D37854000BA3AC /* Project object */;
+}
